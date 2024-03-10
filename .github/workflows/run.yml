@@ -24,6 +24,7 @@ jobs:
           curl -sSL ${cn_cidr} | grep -v '#' | sed 's/^/IP-CIDR,/' > cn.list
           curl -sSL ${cn_cidr6} | grep -v '#' | sed 's/^/IP-CIDR6,/' >> cn.list
           sed -i "1i# Total: $(cat cn.list | wc -l)" cn.list
+          sed -i "1i# Update: ${COMMIT_INFO}" cn.list
 
       - name: Generate Other files
         run: |
