@@ -6,6 +6,6 @@ Proxy = select, policy-path=订阅链接
 
 [Rule]
 RULE-SET,https://github.com/AkinoYuiko/surge-list/raw/main/blocked.list,Proxy
-RULE-SET,https://github.com/AkinoYuiko/surge-list/raw/main/cncidr.list,DIRECT
+RULE-SET,https://github.com/AkinoYuiko/surge-list/raw/main/cn.list,DIRECT
 FINAL,Proxy,dns-failed
 ```
