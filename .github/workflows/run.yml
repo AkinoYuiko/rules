@@ -1,0 +1,65 @@
+name: Generate Rules
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 23 * * *"
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set variables
+        run: |
+          echo "COMMIT_INFO=$(TZ='Asia/Shanghai' date +%F\ %H:%M:%S)" >> $GITHUB_ENV
+          echo "AdBlock=https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt" >> $GITHUB_ENV
+          echo "Global=https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt" >> $GITHUB_ENV
+          echo "cn_cidr=https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt" >> $GITHUB_ENV
+          echo "cn_cidr6=https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/china6.txt" >> $GITHUB_ENV
+        shell: bash
+
+      - uses: actions/checkout@v4.1.1
+
+      - name: Generate cn.list file
+        run: |
+          curl -sSL ${cn_cidr} | grep -v '#' | sed 's/^/IP-CIDR,/' > cn.list
+          curl -sSL ${cn_cidr6} | grep -v '#' | sed 's/^/IP-CIDR6,/' >> cn.list
+          sed -i "1i# Total: $(cat cn.list | wc -l)" cn.list
+
+      - name: Generate Other files
+        run: |
+          declare -A Matrix
+          Matrix["AdBlock"]="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/AdBlock.list"
+          Matrix["Apple"]="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/Apple.list"
+          Matrix["Disney"]="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/Disney.list"
+          Matrix["Discord"]="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/Discord.list"
+          Matrix["Global"]="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/Global.list"
+          Matrix["Google"]="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/Google.list"
+          Matrix["Netflix"]="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/Netflix.list"
+          Matrix["OpenAI"]="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/OpenAI.list"
+          Matrix["Steam"]="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/Steam.list"
+          Matrix["YouTube"]="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/YouTube.list"
+          for key in ${!Matrix[@]}
+          do
+            curl -sSL ${Matrix[${key}]} | grep -Ev '^$' | grep -Ev '^#' > ${key}".list"
+            sed -i "1i# Total: $(cat ${key}.list | wc -l)" ${key}.list
+          done
+
+      - name: Move files to publish directory
+        run: |
+          git clone "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" publish
+          mv ./*.list publish/
+
+      - name: Git push assets
+        run: |
+          cd publish || exit 1
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "${{ env.COMMIT_INFO }}"
+          git push
+
+      - name: Cleanup Workflow
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          retain_days: 0
+          keep_minimum_runs: 2
