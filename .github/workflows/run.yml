@@ -17,7 +17,7 @@ jobs:
           echo "cn_cidr6=https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/china6.txt" >> $GITHUB_ENV
         shell: bash
 
-      - uses: actions/checkout@v4.1.1
+      - uses: actions/checkout@v4.1.2
 
       - name: Generate cn.list file
         run: |
