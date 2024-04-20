@@ -29,4 +29,5 @@ DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,google,extended-matching
 DOMAIN-KEYWORD,gstatic,extended-matching
 DOMAIN-KEYWORD,microsoft,extended-matching
+DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,youtube
