@@ -1,0 +1,32 @@
+DOMAIN,api.iturrit.com // Turrit
+DOMAIN,ocsp.pki.goog
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,bugsnag.com
+DOMAIN-SUFFIX,digicert.com // Apple
+DOMAIN-SUFFIX,git.io
+DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,icloud.com,extended-matching
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,misakaf.org // Emby
+DOMAIN-SUFFIX,mixpanel.com // Termius
+DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,pximg.net
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,split.io  // Termius
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,scdn.co // Spotify
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,termius.com
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-KEYWORD,discord
+DOMAIN-KEYWORD,github
+DOMAIN-KEYWORD,google,extended-matching
+DOMAIN-KEYWORD,gstatic,extended-matching
+DOMAIN-KEYWORD,microsoft,extended-matching
+DOMAIN-KEYWORD,youtube
