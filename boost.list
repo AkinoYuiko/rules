@@ -3,6 +3,7 @@ DOMAIN,ocsp.pki.goog
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,digicert.com // Apple
+DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,gmail.com
