@@ -5,6 +5,8 @@ DOMAIN-SUFFIX,apple-cdn.net
 DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,digicert.com // Apple
 DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fbcdn.net
 DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,gmail.com
