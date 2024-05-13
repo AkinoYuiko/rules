@@ -1,0 +1,42 @@
+DOMAIN,api.iturrit.com // Turrit
+DOMAIN,rcg.fun,extended-matching
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple-cdn.net
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bugsnag.com
+DOMAIN-SUFFIX,dis.gd // Discord
+DOMAIN-SUFFIX,digicert.com // Apple
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fivecdm.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,ghcr.io // Github Packages
+DOMAIN-SUFFIX,git.io
+DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,misakaf.org // Misaka F Emby
+DOMAIN-SUFFIX,mixpanel.com // Termius
+DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,pki.goog
+DOMAIN-SUFFIX,pximg.net
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,scdn.co // Spotify
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,termius.com
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-KEYWORD,discord
+DOMAIN-KEYWORD,facebook
+DOMAIN-KEYWORD,github
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,gstatic
+DOMAIN-KEYWORD,microsoft
+DOMAIN-KEYWORD,youtube
