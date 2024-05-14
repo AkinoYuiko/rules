@@ -23,8 +23,8 @@ DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pki.goog
 DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,scdn.co // Spotify
+DOMAIN-SUFFIX,spoti.fi
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,termius.com
@@ -39,4 +39,5 @@ DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,gstatic
 DOMAIN-KEYWORD,microsoft
+DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,youtube
