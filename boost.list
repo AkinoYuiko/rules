@@ -1,5 +1,5 @@
 DOMAIN,api.iturrit.com // Turrit
-DOMAIN,rcg.fun,extended-matching
+DOMAIN-SUFFIX,rcg.fun,extended-matching
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple-cdn.net
 DOMAIN-SUFFIX,bing.com
