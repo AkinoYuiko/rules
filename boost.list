@@ -19,8 +19,6 @@ DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,icloud.com,extended-matching
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,misakaf.org // Misaka F Emby
-DOMAIN-SUFFIX,mixpanel.com // Termius
-DOMAIN-SUFFIX,nvidia.com
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pki.goog
 DOMAIN-SUFFIX,pximg.net
@@ -33,6 +31,7 @@ DOMAIN-SUFFIX,termius.com
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-KEYWORD,discord
