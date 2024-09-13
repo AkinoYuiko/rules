@@ -1,5 +1,3 @@
-DOMAIN,api.iturrit.com // Turrit
-DOMAIN-SUFFIX,rcg.fun,extended-matching
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple-cdn.net
 DOMAIN-SUFFIX,bing.com
@@ -18,7 +16,7 @@ DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,gitlab.net
 DOMAIN-SUFFIX,gmail.com
-DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com,extended-matching
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,misakaf.org // Misaka F Emby
 DOMAIN-SUFFIX,mixpanel.com // Termius
