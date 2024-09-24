@@ -1,7 +1,5 @@
 DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,dis.gd // Discord
 DOMAIN-SUFFIX,digicert.com // Apple
@@ -20,9 +18,7 @@ DOMAIN-SUFFIX,gitlab.net
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,icloud.com,extended-matching
 DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,misakaf.org // Misaka F Emby
-DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pki.goog
 DOMAIN-SUFFIX,pximg.net
@@ -46,5 +42,6 @@ DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,gstatic
 DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,microsoft
+DOMAIN-KEYWORD,nvidia
 DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,youtube
