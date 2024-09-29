@@ -1,3 +1,8 @@
+# DOMAIN,appboot.netflix.com
+# DOMAIN,ios.prod.cloud.netflix.com
+# DOMAIN,android-appboot.netflix.com
+# DOMAIN,android.prod.cloud.netflix.com
+# DO NOT LET YOUR MACHINE ACCESS DOMAINS ABOVE!!!
 DOMAIN,netflix.com.edgesuite.net
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,netflix.com

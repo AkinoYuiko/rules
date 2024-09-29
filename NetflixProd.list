@@ -1,0 +1,4 @@
+DOMAIN,appboot.netflix.com,extended-matching
+DOMAIN,ios.prod.cloud.netflix.com
+DOMAIN,android-appboot.netflix.com
+DOMAIN,android.prod.cloud.netflix.com
