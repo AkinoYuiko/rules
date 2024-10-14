@@ -16,12 +16,18 @@ DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,gitlab.net
 DOMAIN-SUFFIX,gmail.com
-DOMAIN-SUFFIX,icloud.com,extended-matching
+DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,misakaf.org // Misaka F Emby
+DOMAIN-SUFFIX,misakaf.org
+DOMAIN-SUFFIX,me.com,extended-matching
+DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pki.goog
 DOMAIN-SUFFIX,pximg.net
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,scdn.co // Spotify
 DOMAIN-SUFFIX,split.io
