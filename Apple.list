@@ -13,8 +13,9 @@ DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,itunes.com
-DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,me.com,extended-matching
 DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-KEYWORD,apple-relay.
 IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,63.92.224.0/19,no-resolve
 IP-CIDR,65.199.22.0/23,no-resolve
