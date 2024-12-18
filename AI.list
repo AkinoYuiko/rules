@@ -1,7 +1,7 @@
 # author: 可莉🅥
-# 2024-10-10 14:36:12
+# 2024-11-12 08:18:31
 # ChatGPT
-AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-eastus-),(DOMAIN-SUFFIX,webpubsub.azure.com))
+AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
 AND,((DOMAIN-KEYWORD,openaicom-api-),(DOMAIN-SUFFIX,azurefd.net))
 DOMAIN,o33249.ingest.sentry.io
 DOMAIN,openaiapi-site.azureedge.net
@@ -9,7 +9,6 @@ DOMAIN,openaicom.imgix.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
@@ -33,6 +32,7 @@ DOMAIN,makersuite.google.com
 # Claude
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claudeusercontent.com
 IP-CIDR,160.79.104.0/23,no-resolve
 IP-CIDR6,2607:6bc0::/48,no-resolve
 # JetBrains AI
@@ -42,7 +42,9 @@ DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN,imagine.meta.com
 DOMAIN-SUFFIX,meta.ai
 # Perplexity
+DOMAIN-SUFFIX,pplx.ai
 DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
 # Mistral AI
 DOMAIN,chat.mistral.ai
 DOMAIN,console.mistral.ai
