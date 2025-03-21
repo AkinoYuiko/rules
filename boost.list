@@ -3,6 +3,7 @@ DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bsky.app
 DOMAIN-SUFFIX,bsky.network
 DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cuto.app
 DOMAIN-SUFFIX,dis.gd // Discord
 DOMAIN-SUFFIX,digicert.com // Apple
