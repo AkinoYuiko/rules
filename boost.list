@@ -1,6 +1,9 @@
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bsky.app
+DOMAIN-SUFFIX,bsky.network
 DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,cuto.app
 DOMAIN-SUFFIX,dis.gd // Discord
 DOMAIN-SUFFIX,digicert.com // Apple
 DOMAIN-SUFFIX,docker.com
@@ -13,14 +16,18 @@ DOMAIN-SUFFIX,fivecdm.com
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,ghcr.io // Github Packages
 DOMAIN-SUFFIX,git.io
+DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,me.com,extended-matching
+DOMAIN-SUFFIX,misakaf.org
+DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,nodeseek.com
+DOMAIN-SUFFIX,pages.dev
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pki.goog
 DOMAIN-SUFFIX,pximg.net
+DOMAIN-SUFFIX,pximg.org
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
@@ -30,12 +37,10 @@ DOMAIN-SUFFIX,scdn.co // Spotify
 DOMAIN-SUFFIX,split.io
 DOMAIN-SUFFIX,spoti.fi
 DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,termius.com
+DOMAIN-SUFFIX,t.me,extended-matching
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitter.com
-DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-KEYWORD,discord
@@ -47,4 +52,5 @@ DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,nvidia
 DOMAIN-KEYWORD,spotify
+DOMAIN-KEYWORD,steam
 DOMAIN-KEYWORD,youtube
