@@ -3,9 +3,6 @@ DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bsky.app
 DOMAIN-SUFFIX,bsky.network
 DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cuto.app
-DOMAIN-SUFFIX,dis.gd // Discord
 DOMAIN-SUFFIX,digicert.com // Apple
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,docker.io
@@ -44,6 +41,7 @@ DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-KEYWORD,cloudflare
 DOMAIN-KEYWORD,discord
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,github
