@@ -3,6 +3,7 @@ DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bsky.app
 DOMAIN-SUFFIX,bsky.network
 DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,cuto.app
 DOMAIN-SUFFIX,digicert.com // Apple
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,docker.io
@@ -18,8 +19,8 @@ DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,misakaf.org
 DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,pages.dev
 DOMAIN-SUFFIX,pixiv.net
@@ -39,6 +40,7 @@ DOMAIN-SUFFIX,t.me,extended-matching
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,workers.dev
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-KEYWORD,cloudflare
