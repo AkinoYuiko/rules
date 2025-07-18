@@ -1,3 +1,4 @@
+DOMAIN-SUFFIX,apple,extended-matching
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bsky.app
@@ -40,7 +41,7 @@ DOMAIN-SUFFIX,scdn.co // Spotify
 DOMAIN-SUFFIX,split.io
 DOMAIN-SUFFIX,spoti.fi
 DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,t.me,extended-matching
+DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitter.com
