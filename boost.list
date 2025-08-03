@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,ghcr.io // Github Packages
 DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,gitbook.io
+DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,goo.gl
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
@@ -52,7 +53,6 @@ DOMAIN-KEYWORD,cloudflare
 DOMAIN-KEYWORD,discord
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,github
-DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,gstatic
 DOMAIN-KEYWORD,instagram
