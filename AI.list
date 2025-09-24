@@ -1,5 +1,10 @@
 # author: 可莉🅥
 # 2025-05-04 22:36:48
+# Apple AI
+DOMAIN,apple-relay.apple.com,extended-matching
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,gspe1-ssl.ls.apple.com
 # ChatGPT
 AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
 AND,((DOMAIN-KEYWORD,openaicom-api-),(DOMAIN-SUFFIX,azurefd.net))
