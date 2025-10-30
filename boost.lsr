@@ -49,6 +49,7 @@ DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,workers.dev
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-KEYWORD,apple-relay.
 DOMAIN-KEYWORD,cloudflare
 DOMAIN-KEYWORD,discord
 DOMAIN-KEYWORD,facebook
