@@ -1,6 +1,6 @@
 # author: 可莉🅥
-# 2025-07-11 16:39:08
-# Apple AI
+# 2025-11-04 21:28:23
+# Apple
 DOMAIN,apple-relay.apple.com,extended-matching
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,apple-relay.fastly-edge.com
@@ -71,3 +71,5 @@ DOMAIN-SUFFIX,grok.com
 # Trae AI
 DOMAIN,trae-api-sg.mchost.guru
 DOMAIN-SUFFIX,trae.ai
+# OpenRouter
+DOMAIN-SUFFIX,openrouter.ai
