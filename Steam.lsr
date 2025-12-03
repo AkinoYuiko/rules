@@ -1,19 +1,68 @@
+#DOMAIN,steambroadcast.akamaized.net
+#DOMAIN,steamcommunity-a.akamaihd.net
+#DOMAIN,steampipe.akamaized.net
+#DOMAIN,steamstore-a.akamaihd.net
+#DOMAIN,steamusercontent-a.akamaihd.net
+#DOMAIN,steamuserimages-a.akamaihd.net
+#DOMAIN-SUFFIX,fanatical.com
+#DOMAIN-SUFFIX,humblebundle.com
+#DOMAIN-SUFFIX,playartifact.com
+#DOMAIN-SUFFIX,steam-chat.com
+#DOMAIN-SUFFIX,steamcontent.com
+#DOMAIN-SUFFIX,steamcommunity.com
+#DOMAIN-SUFFIX,steamgames.com
+#DOMAIN-SUFFIX,steampowered.com
+#DOMAIN-SUFFIX,steamserver.net
+#DOMAIN-SUFFIX,steamstat.us
+#DOMAIN-SUFFIX,steamstatic.com
+#DOMAIN-SUFFIX,underlords.com
+#DOMAIN-SUFFIX,valvesoftware.com
+
+DOMAIN-SUFFIX,playartifact.com
+DOMAIN-SUFFIX,s.team,extended-matching
+DOMAIN-SUFFIX,steam.tv
+DOMAIN-SUFFIX,steam-api.com
+DOMAIN-SUFFIX,steam-chat.com
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamdeck.com
+DOMAIN-SUFFIX,steamgames.com
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamserver.net
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN-SUFFIX,underlords.com
+DOMAIN-SUFFIX,valvesoftware.com
+# edgecast
+DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net
+# edgesuite
+DOMAIN,steamcommunity-a.akamaihd.net.edgesuite.net
+# 网宿(国际)
+DOMAIN-SUFFIX,team.apac.qtlglb.com
+DOMAIN-SUFFIX,team.eca.qtlglb.com
+DOMAIN-SUFFIX,team.naeu.qtlglb.com
+DOMAIN-SUFFIX,team.ru.qtlglb.com
+# HIGHWINDS
+DOMAIN,a4e8s8k3.map2.ssl.hwcdn.net
+DOMAIN,f3b7q2p3.ssl.hwcdn.net
+# internode
+DOMAIN-SUFFIX,steam.cdn.on.net
+# orcon
+DOMAIN-SUFFIX,steam.cdn.orcon.net.nz
+DOMAIN-SUFFIX,steam.cdn.slingshot.co.nz
+# webra
+DOMAIN-SUFFIX,steam.cdn.webra.ru
+# Akamai
 DOMAIN,steambroadcast.akamaized.net
+DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN,steamcommunity-a.akamaihd.net
+DOMAIN,steammobile.akamaized.net
+DOMAIN,steampipe-kr.akamaized.net
+DOMAIN,steampipe-partner.akamaized.net
 DOMAIN,steampipe.akamaized.net
 DOMAIN,steamstore-a.akamaihd.net
 DOMAIN,steamusercontent-a.akamaihd.net
 DOMAIN,steamuserimages-a.akamaihd.net
-DOMAIN-SUFFIX,fanatical.com
-DOMAIN-SUFFIX,humblebundle.com
-DOMAIN-SUFFIX,playartifact.com
-DOMAIN-SUFFIX,steam-chat.com
-DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,steamcommunity.com
-DOMAIN-SUFFIX,steamgames.com
-DOMAIN-SUFFIX,steampowered.com
-DOMAIN-SUFFIX,steamserver.net
-DOMAIN-SUFFIX,steamstat.us
-DOMAIN-SUFFIX,steamstatic.com
-DOMAIN-SUFFIX,underlords.com
-DOMAIN-SUFFIX,valvesoftware.com
+DOMAIN,steamvideo-a.akamaihd.net
+# Azure
+DOMAIN,steamcloudsweden.blob.core.windows.net
