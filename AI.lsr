@@ -1,5 +1,5 @@
 # author: 可莉🅥
-# 2025-11-04 21:28:23
+# 2026-04-15 22:19:14
 # Apple
 DOMAIN,apple-relay.apple.com,extended-matching
 DOMAIN,apple-relay.cloudflare.com
@@ -8,7 +8,7 @@ DOMAIN,guzzoni.smoot.apple.com
 DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,prodregistryv2.org
 DOMAIN,challenges.cloudflare.com
-# ChatGPT
+# OpenAI
 AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
 AND,((DOMAIN-KEYWORD,openaicom-api-),(DOMAIN-SUFFIX,azurefd.net))
 DOMAIN,chatgpt.livekit.cloud
@@ -18,8 +18,10 @@ DOMAIN,openaiapi-site.azureedge.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,turn.livekit.cloud
+DOMAIN,openaicom.imgix.net
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,crixet.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
@@ -29,7 +31,10 @@ DOMAIN,api.githubcopilot.com
 DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,copilot.microsoft.com
 DOMAIN,sydney.bing.com
-DOMAIN,www.bing.com
+# Github Copilot
+DOMAIN,api.githubcopilot.com
+# Github Models
+DOMAIN,models.inference.ai.azure.com
 # Gemini
 DOMAIN,ai.google.dev
 DOMAIN,aida.googleapis.com
@@ -40,12 +45,27 @@ DOMAIN,bard.google.com
 DOMAIN,deepmind.com
 DOMAIN,deepmind.google
 DOMAIN,geller-pa.googleapis.com
+DOMAIN,gemini.google
 DOMAIN,gemini.google.com
 DOMAIN,generativeai.google
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,makersuite.google.com
 DOMAIN,proactivebackend-pa.googleapis.com
-# Claude
+DOMAIN,robinfrontend-pa.googleapis.com
+DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+DOMAIN,notebooklm.google
+DOMAIN,notebooklm.google.com
+DOMAIN,jules.google
+DOMAIN,jules.google.com
+DOMAIN,labs.google
+DOMAIN,aisandbox-pa.googleapis.com
+# Google Antigravity
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,antigravity-unleash.goog
+DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
+DOMAIN,daily-cloudcode-pa.googleapis.com
+AND,((DOMAIN-KEYWORD,antigravity-auto-updater-),(DOMAIN-SUFFIX,run.app))
+# Anthropic
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claudeusercontent.com
@@ -59,6 +79,7 @@ DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN,imagine.meta.com
 DOMAIN-SUFFIX,meta.ai
 # Perplexity
+DOMAIN,pplx-res.cloudinary.com
 DOMAIN-SUFFIX,pplx.ai
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,perplexity.com
@@ -75,3 +96,42 @@ DOMAIN,trae-api-sg.mchost.guru
 DOMAIN-SUFFIX,trae.ai
 # OpenRouter
 DOMAIN-SUFFIX,openrouter.ai
+# TokenFlux
+DOMAIN-SUFFIX,tokenflux.ai
+# Groq
+DOMAIN-SUFFIX,groq.com
+# Together
+DOMAIN-SUFFIX,together.ai
+# Fireworks
+DOMAIN-SUFFIX,fireworks.ai
+# Hyperbolic
+DOMAIN,api.hyperbolic.xyz
+DOMAIN-SUFFIX,hyperbolic.ai
+# Mistral
+DOMAIN-SUFFIX,mistral.ai
+# Jina AI
+DOMAIN-SUFFIX,jina.ai
+# GPUStack
+# DOMAIN-SUFFIX,gpustack.ai
+# VoyageAI
+DOMAIN-SUFFIX,voyageai.com
+# Vertex AI
+DOMAIN,aiplatform.googleapis.com
+# Poe
+DOMAIN-SUFFIX,poe.com
+# Cerebras AI
+DOMAIN-SUFFIX,cerebras.ai
+# Vercel AI
+DOMAIN,ai-gateway.vercel.sh
+# Hugging Face AI
+DOMAIN,router.huggingface.co
+# Nvidia
+DOMAIN,integrate.api.nvidia.com
+# Kiro
+DOMAIN-SUFFIX,kiro.dev
+# CerebrasAI
+DOMAIN-SUFFIX,cerebras.ai
+# MiniMax国际版
+DOMAIN-SUFFIX,minimax.io
+# 智谱国际版
+DOMAIN-SUFFIX,z.ai
