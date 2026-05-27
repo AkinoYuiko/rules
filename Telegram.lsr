@@ -1,17 +1,17 @@
-DOMAIN-SUFFIX,telegram.space
 DOMAIN-SUFFIX,cdn-telegram.org
-DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,graph.org
-DOMAIN-SUFFIX,telega.one
-DOMAIN-SUFFIX,telegram.dog
-DOMAIN-SUFFIX,tg.dev
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,legra.ph
-DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,tx.me
 DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telega.one
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,tg.dev
+DOMAIN-SUFFIX,tx.me
 IP-ASN,1273,no-resolve // Telegram DR line
 IP-ASN,62014,no-resolve // Telegram DC5
 IP-ASN,62041,no-resolve // Telegram DC4
