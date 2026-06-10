@@ -11,7 +11,7 @@ DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,itunes.com
-DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,me.com,extended-matching
 DOMAIN-SUFFIX,organicfruitapps.com
 DOMAIN-SUFFIX,push-apple.com.akadns.net
 PROCESS-NAME,CoreLocationAgent
