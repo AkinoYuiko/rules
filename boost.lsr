@@ -1,3 +1,4 @@
+DOMAIN,api.swiftgram.app
 DOMAIN-SUFFIX,apple,extended-matching
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,bing.com
@@ -21,9 +22,9 @@ DOMAIN-SUFFIX,ghcr.io // Github Packages
 DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,gmail.com
-DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,kelee.one
 DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
@@ -31,14 +32,16 @@ DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,pages.dev
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pki.goog
+DOMAIN-SUFFIX,push.apple.com
 DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,pximg.org
+DOMAIN-SUFFIX,rcg.fun
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
-DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,scdn.co // Spotify
+DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,split.io
 DOMAIN-SUFFIX,spoti.fi
 DOMAIN-SUFFIX,t.co
@@ -49,7 +52,7 @@ DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,workers.dev
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,ytimg.com
-DOMAIN-KEYWORD,apple-relay.
+DOMAIN-SUFFIX,zed.dev
 DOMAIN-KEYWORD,cloudflare
 DOMAIN-KEYWORD,discord
 DOMAIN-KEYWORD,facebook
@@ -62,3 +65,7 @@ DOMAIN-KEYWORD,nvidia
 DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,steam
 DOMAIN-KEYWORD,youtube
+IP-ASN,62014,no-resolve // Telegram DC5
+IP-ASN,62041,no-resolve // Telegram DC4
+IP-ASN,59930,no-resolve // Telegram DC1
+IP-CIDR,17.0.0.0/8,no-resolve // Apple
